@@ -42,9 +42,9 @@ export default function Navbar() {
         </div>
         <div className="navbar-end gap-4">
           <ThemeToggler />
-          {pathname !== "/documentation/getting-started/new-user" && (
+          {pathname !== "/documentation/getting-started" && (
             <Link
-              href={`${process.env.NEXT_PUBLIC_BASE_URL}/documentation/getting-started/new-user`}
+              href={`${process.env.NEXT_PUBLIC_BASE_URL}/documentation/getting-started`}
               className="btn btn-primary"
             >
               get started

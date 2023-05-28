@@ -6,18 +6,48 @@
 	},
 	{
 		"title": "Getting Started",
+		"to": "/getting-started",
+		"directPage": true
+	},
+	{
+		"title": "UI Designer",
+		"to": "/ui-designer",
+		"directPage": true
+	},
+	{
+		"title": "Editor",
 		"subItems": [
 			{
-				"title": "I am new user",
-				"to": "/new-user"
+				"title": "Editor UI",
+				"to": "/editor-ui"
 			},
 			{
-				"title": "Creating a new project",
-				"to": "/creating-new-project"
+				"title": "Code editor",
+				"to": "/code-editor"
 			},
 			{
-				"title": "Working with an existing project",
-				"to": "/working-with-existing-project"
+				"title": "Bottom sheet",
+				"to": "/bottom-sheet"
+			},
+			{
+				"title": "Build actions",
+				"to": "/build-actions"
+			},
+			{
+				"title": "Color schemes",
+				"to": "/color-schemes"
+			},
+			{
+				"title": "Java code actions",
+				"to": "/java-code-actions"
+			},
+			{
+				"title": "Key bindings",
+				"to": "/key-bindings"
+			},
+			{
+				"title": "Java snippets",
+				"to": "/java-snippets"
 			}
 		]
 	},

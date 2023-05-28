@@ -27,7 +27,8 @@ async function DocumentationCollapsible({ drawerManualToggle }) {
   let documentations;
   try {
     const response = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/documentations`
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/documentations`,
+      { next: { revalidate: 0 } }
     );
     documentations = await response.json();
   } catch {
