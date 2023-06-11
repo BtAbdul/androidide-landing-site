@@ -4,6 +4,10 @@
 }
 
 /* footnotes */
-.markdown section[data-footnotes] > * {
+/* .markdown section[data-footnotes] > * {
   all: revert;
+} */
+
+.markdown table tr th:first-child {
+  position: revert !important;
 }

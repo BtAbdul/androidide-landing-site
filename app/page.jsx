@@ -28,7 +28,7 @@ function Mockup() {
       <div className="mockup-phone md:mx-0 md:ml-auto rounded-2xl">
         <div className="camera !w-[25%] opacity-0"></div>
         <div className="display mt-0 !rounded-md">
-          <div className="artboard artboard-demo phone-1 !h-auto min-h-[90vh]">
+          <div className="artboard artboard-demo phone-1 !h-auto min-h-[661px]">
             <ScreenshotCarousel />
           </div>
         </div>
@@ -124,7 +124,7 @@ function HeaderHero() {
           Build real, Gradle-based Android applications on Android devices
         </p>
         <Link
-          href={`${process.env.NEXT_PUBLIC_BASE_URL}/documentation/getting-started/new-user`}
+          href={`${process.env.NEXT_PUBLIC_BASE_URL}/documentation/getting-started`}
           className="btn btn-primary"
         >
           getting started
